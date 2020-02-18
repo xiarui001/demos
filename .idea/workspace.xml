@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acb27468-48c0-410b-82da-e7b14b14d585" name="Default Changelist" comment="" />
+    <list default="true" id="acb27468-48c0-410b-82da-e7b14b14d585" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JVM/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/src/main/java/four_tools/TestDeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/JVM/src/four_tools/TestDeadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/target/classes/four_tools/TestDeadLock$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/target/classes/four_tools/TestDeadLock$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM/target/classes/four_tools/TestDeadLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,17 +30,37 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1NPjVnSZ7yJMxxkvcqZHHb5hbOu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/algo/src/main/java" />
+    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/21-繁星纵变-913246053/Java资料/08_JDK源码剖析系列/02_Java并发编程系列/151~181资料/151~181资料/156_案例实战：slave节点注册时同步阻塞等待多个master注册完毕/代码/代码/distributed-filesystem" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,13 +74,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="TestDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="four_tools.TestDeadLock" />
+  <component name="RunManager" selected="Application.ThreadLocalTest">
+    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.ThreadLocalTest" />
       <module name="JVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="four_tools.*" />
+          <option name="PATTERN" value="concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="interrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.interrupt" />
+      <module name="JVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.pool" />
+      <module name="JVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="quenue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.quenue" />
+      <module name="JVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="syncqueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.syncqueue" />
+      <module name="JVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,7 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestDeadLock" />
+        <item itemvalue="Application.ThreadLocalTest" />
+        <item itemvalue="Application.syncqueue" />
+        <item itemvalue="Application.interrupt" />
+        <item itemvalue="Application.pool" />
+        <item itemvalue="Application.quenue" />
       </list>
     </recent_temporary>
   </component>
@@ -71,10 +162,70 @@
       <updated>1561989651306</updated>
       <workItem from="1561989655129" duration="8357000" />
       <workItem from="1562052624796" duration="764000" />
+      <workItem from="1573646931923" duration="297000" />
+      <workItem from="1573651211095" duration="59000" />
+      <workItem from="1573715570750" duration="12000" />
+      <workItem from="1573796204103" duration="26119000" />
+      <workItem from="1574780036606" duration="20324000" />
+      <workItem from="1579753360371" duration="2391000" />
+      <workItem from="1580263982346" duration="51512000" />
+      <workItem from="1580785353333" duration="20445000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algo/src/main/java/linke/SimpleLinkedList.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algo/src/main/java/stack/SimpleStack.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JVM/src/main/java/six/clonDemo.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JVM/src/main/java/concurrent/quenue.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/JDK8/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>886</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/algo/src/main/java/linke/SimpleLinkedList.java</url>
+          <line>251</line>
+          <properties class="linke.SimpleLinkedList" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
